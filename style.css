@@ -1,0 +1,33 @@
+.nav{
+    margin-left: -140px;
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+    transition: 1s all ease-in-out;
+}
+.nav nav{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 39, 37);
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+.nav nav a{
+    display: flex;
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+.nav nav a:hover{
+    /* background-color: bisque; */
+    color: rgb(210, 210, 211);
+}
+#btn {
+    height: 30px;
+}
+.toggleNav{
+    margin: 0px;
+    transition: 1s all ease-in-out;
+}
